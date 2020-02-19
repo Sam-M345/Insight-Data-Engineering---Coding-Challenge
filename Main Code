@@ -1,0 +1,31 @@
+# Import pandas
+import pandas as pd
+
+# Load the CSV data into DataFrames
+
+crosinfo = pd.read_csv('C:/datasets/border2.csv')
+
+
+
+
+
+
+# Display the first five rows of each DataFrame
+
+display(crosinfo.head(100))
+
+crosinfo.Border
+
+crosinfo.Date
+
+round(crosinfo.Value.mean())
+
+
+crosinfo.Value.mean()
+
+crosinfo.Value.sum()
+
+
+Display  Crossinfo Total
+
+
